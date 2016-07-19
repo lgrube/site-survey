@@ -5,15 +5,15 @@
 
       <h2>Project Management Form</h2><!--basic project information header-->
         <ul style="list-style-type:none"> <!-- created a basic list with no dots or disc-->
-          <li>Customer:<input type="text" name="Customer"></li>
+          <li>Customer:<input type="text" name="Customer name"></li>
           <li>Contact Info:<input type="text" name="Contact Info"></li>
           <li>Utility Access (codes, keys, walk in):<input type="text" name="Utility access"></li>
           <li>Access hours:<input type="text" name="Access hours"></li>
-          <li>Initial walkthrough data:<input type="text" name="walkthrough"></li>
-          <li>People involved in walkthrough:<input type="text" name="people involved"></li>
-          <li>HPBX install?<input type="radio" name="HPBX" value="Yes"> Yes &emsp; <input type="radio" name="HPBX" value="No"> No</li>
-          <li>Fiber Install?<input type="radio" name="Fiber" value="Yes"> Yes &emsp; <input type="radio" name="Fiber" value="No"> No</li>
-          <li>Special Project?<input type="radio" name="Special" value="Yes"> Yes &emsp; <input type="radio" name="Special" value="No"> No</li>
+          <li>Initial walkthrough data:<input type="text" name="initial walkthrough date"></li>
+          <li>People involved in walkthrough:<input type="text" name="people involved in walkthrough"></li>
+          <li>HPBX install?<input type="radio" name="HPBX install" value="Yes"> Yes &emsp; <input type="radio" name="HPBX install" value="No"> No</li>
+          <li>Fiber Install?<input type="radio" name="Fiber install" value="Yes"> Yes &emsp; <input type="radio" name="Fiber install" value="No"> No</li>
+          <li>Special Project?<input type="radio" name="Special project" value="Yes"> Yes &emsp; <input type="radio" name="Special project" value="No"> No</li>
         </ul><!-- end of basic information-->
 
 <!--ending of basic information-->
@@ -22,14 +22,14 @@
       <h4> HPBX Project </h4><!--HPBX project header-->
         <h5>Checklist</h5><!--checklist header under HPBX-->
           <ul style="list-style-type:disc"><!-- created a basic list with a dot or disc-->
-            <li>All existing numbers accounted for   &emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial">&emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>All phones have drops planned out &#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial">&emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>Internet access ofr gateway planned out   &emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>Map for all drops complete  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>List created for all needed material  &emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>HPBX form completed   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>Date scheduled for install  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
-            <li>All materials ordered &#160;/&#160; verified in stock &emsp;&emsp;&emsp; Initial:<input type="text" name="initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date"></li>
+            <li>All existing numbers accounted for   &emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="all existing number accounted for, initial">&emsp;&emsp;&emsp; Date:<input type="text" name="all existing number accounted for, date"></li>
+            <li>All phones have drops planned out &#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="all phones have drops planned out, initial">&emsp;&emsp;&emsp; Date:<input type="text" name="all phones have drops planned out, date"></li>
+            <li>Internet access or gateway planned out   &emsp;&emsp;&emsp; Initial:<input type="text" name="internet access or gateway planned out, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="internet access or gateway planned out, date"></li>
+            <li>Map for all drops complete  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="map for all drops complete, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="map for all drops complete, date"></li>
+            <li>List created for all needed material  &emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="list created for all needed material, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="list created for all needed material, date"></li>
+            <li>HPBX form completed   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="HPBX form completed, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="HPBX form completed, date"></li>
+            <li>Date scheduled for install  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="date scheduled for install, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="date scheduled for install, date"></li>
+            <li>All materials ordered &#160;/&#160; verified in stock &emsp;&emsp;&emsp; Initial:<input type="text" name="all materials ordered, initial"> &emsp;&emsp;&emsp; Date:<input type="text" name="all materials ordered, date"></li>
           </ul><!-- end of HBPX project-->
 
 <!--ending of HBPX-->
@@ -37,21 +37,21 @@
 
       <h3>Part / Material List</h2><!--parts and material header-->
         <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-          <li><input type="text" name="phones"> &#160;VVX 410 Phones</li>
-          <li><input type="text" name="phones"> &#160;VVX 310 Phones</li>
-          <li><input type="text" name="phones"> &#160;VVX 600 Phones</li>
-          <li><input type="text" name="phones"> &#160;VVX DS60 Phones</li>
+          <li><input type="text" name="VVX 410 phones"> &#160;VVX 410 Phones</li>
+          <li><input type="text" name="VVX 310 phones"> &#160;VVX 310 Phones</li>
+          <li><input type="text" name="VVX 600 phones"> &#160;VVX 600 Phones</li>
+          <li><input type="text" name="VVX DS60 phones"> &#160;VVX DS60 Phones</li>
           <li><input type="text" name="conference phones"> &#160;Sound Station IP 7000 Conference Phones</li>
           <li><input type="text" name="cordless phones"> &#160;Panasonic Cordless Phones</li>
-          <li><input type="text" name="gateway"> &#160;Gateways &#160; (Models: <input type="text" name="model">)</li>
+          <li><input type="text" name="gateways"> &#160;Gateways &#160; (Models: <input type="text" name="model">)</li>
           <li><input type="text" name="wall mounts"> &#160;Wall mounts</li>
           <li><input type="text" name="power bricks"> &#160;Power bricks</li>
-          <li><input type="text" name="cable"> &#160;Cat5e cable</li>
-          <li><input type="text" name="ends"> &#160;Cat5e ends</li>
-          <li><input type="text" name="patch panels"> &#160;Cat5e patch panels</li>
-          <li><input type="text" name="jacks"> &#160;Cat5e jacks</li>
-          <li><input type="text" name="wall plates"> &#160;Cat5e wall plates</li>
-          <li><input type="text" name="jack boxes"> &#160;Cat5e jack boxes</li>
+          <li><input type="text" name="cat5e cable"> &#160;Cat5e cable</li>
+          <li><input type="text" name="cat5e ends"> &#160;Cat5e ends</li>
+          <li><input type="text" name="cat5e patch panels"> &#160;Cat5e patch panels</li>
+          <li><input type="text" name="cat5e jacks"> &#160;Cat5e jacks</li>
+          <li><input type="text" name="cat5e wall plates"> &#160;Cat5e wall plates</li>
+          <li><input type="text" name="cat5e jack boxes"> &#160;Cat5e jack boxes</li>
           <li><input type="text" name="other"> &#160;Other: <input type"text" name="other"></li>
         </ul><!--end of parts and material list-->
 
@@ -60,15 +60,14 @@
 
       <h4>Tools</h4><!--tools header-->
         <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-          <li><input type="text" name="drill"> &#160; Drill</li>
-          <li><input type="text" name="ladder"> &#160; Ladder &#160; (Height: <input type="text" name="height">)</li>
-          <li><input type="text" name="fish tape"> &#160; Fish Tape</li>
-          <li><input type="text" name="other"> &#160; Other:<input type="text" name="other"></li>
+          <li><input type="radio" name="Drill 1" value="Yes"> Yes &emsp; <input type="radio" name="Drill 1" value="No"> No &#160; Drill</li>
+          <li><input type="radio" name="ladder 1" value="Yes"> Yes &emsp; <input type="radio" name="ladder 1" value="No"> No&#160; Ladder &#160; (Height: <input type="number" name="height 1" min="0" max="9999999999">)</li>
+          <li><input type="radio" name="fish tape 1" value="Yes"> Yes &emsp; <input type="radio" name="fish tape 1" value="No"> No &#160; Fish Tape</li>
+          <li><input type="text" name="other 1"> &#160; Other:<input type="text" name="other 1"></li>
         </ul><!--end of tools-->
       <br><!--adds and extra space between other and the description-->
         <h4>Description of work required</h4>
-          <br>
-          <br>
+        <textarea rows="5" cols="50"></textarea>
 
 <!--ending of tools list-->
 <!--beginning of new drop off information-->
@@ -223,14 +222,14 @@
         <h5>Fiber Internet</h5><!--header for fiber internet-->
           <h6>Checklist</h6><!--header for fiber checklist-->
             <ul style="list-style-type:disc"><!-- created a basic list with disc-->
-              <li>Drop planned out &#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>Access into building planned &#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>Location of equipment in building planned &#160;&#160;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>Route of drop in building planned &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>List created for all needed material &#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>Fiber form completed &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>Date scheduled for install &#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
-              <li>All materials ordered &#160; / &#160; verified in stock &emsp;&emsp;&emsp; Initial:_____ &emsp;&emsp; Date:_____</li>
+              <li>Drop planned out &#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="drop planned out, initial"> &emsp;&emsp; Date:<input type="text" name="drop planned out, date"></li>
+              <li>Access into building planned &#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="access into building planned, initial"> &emsp;&emsp; Date:<input type="text" name="access into building planned, date"></li>
+              <li>Location of equipment in building planned &#160;&#160;&emsp;&emsp; Initial:<input type="text" name="location of equipment in building planned, initial"> &emsp;&emsp; Date:<input type="text" name="location of equipment in building planned, date"></li>
+              <li>Route of drop in building planned &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="route of drop in building planned, initial"> &emsp;&emsp; Date:<input type="text" name="route of drop in building planned, date"></li>
+              <li>List created for all needed material &#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="list create for all needed material, initial"> &emsp;&emsp; Date:<input type="text" name="list create for all needed material, date"></li>
+              <li>Fiber form completed &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="fiber form completed, initial"> &emsp;&emsp; Date:<input type="text" name="fiber form completed, date"></li>
+              <li>Date scheduled for install &#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="date scheduled for install, initial"> &emsp;&emsp; Date:<input type="text" name="date scheduled for install, date"></li>
+              <li>All materials ordered &#160; / &#160; verified in stock &emsp;&emsp;&emsp; Initial:<input type="text" name="all materials ordered, initial"> &emsp;&emsp; Date:<input type="text" name="all materials ordered, date"></li>
             </ul><!--end of list-->
 
 <!--ending of fiber internet and checklist for fiber-->
@@ -238,19 +237,19 @@
 
         <h4>Parts/Material List</h4><!--header for parts and material list-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>_______ Board for wall (size____________________)</li>
-            <li>_______ Patch panel &#160;&#160;&#160;&#160;&#160;(size____________________)</li>
-            <li>_______ Fist box</li>
-            <li>_______ Splice ray</li>
-            <li>_______ Other:____________________
+            <li><input type="text" name="board for wall"> Board for wall (size<input type="text" name="board for wall size">)</li>
+            <li><input tyep="text" name="patch panel 2"> Patch panel &#160;&#160;&#160;&#160;&#160;(size<input type="text" name="size">)</li>
+            <li><input type="text" name="fist box 2"> Fist box</li>
+            <li><input type="text" name="splice ray 2"> Splice ray</li>
+            <li><input type="text" name="other 2"> Other:<input type="text" name="other 2"></li>
           </ul>
 
         <h5>Tools</h5>
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>_______ Drill</li>
-            <li>_______ Ladder (height)
-            <li>_______ Fish tape
-            <li>_______ Other:____________________
+            <li><input type="radio" name="drill 2" value="Yes"> Yes &emsp; <input type="radio" name="drill 2" value="No"> No &emsp; Drill</li>
+            <li><input type="number" name="ladder 2" min"0" max"9999999999"> Ladder (height)</li>
+            <li> <input type="radio" name="fish tape 2" value="Yes"> Yes &emsp; <input type="radio" name="fish tape 2" value="No"> No &emsp; Fish tape</li>
+            <li><input type="text" name="other 2"> Other:<input type="text" name="other 2"></li>
           </ul>
           <br><!--added extra space between gateways-->
 
@@ -258,6 +257,7 @@
 <!--beginning of description of work required-->
 
         <h4>Description of work required</h4><!--header for description of work-->
+        <textarea rows="5" cols="50"></textarea>
           <br><!--added extra space to write under-->
 
 <!--ending of description of work for parts and material-->
@@ -266,65 +266,49 @@
         <h4>Fiber Drop Information</h4><!--header for fiber drop information-->
           <br><!--added extra space between gateways-->
             <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-              <li>MST or Splice?:</li>
-              <li>Originating fiber location (pole or splice case #):</li>
-              <li>Fiber building entrance location:</li>
-              <li>Fiber Termination location:</li>
-              <li>Route to get through building:</li>
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
+              <li>MST or Splice?:<input type="radio" name="MST or splice" value="MST"> MST <input type="radio" name="MST or splice" value="splice"> Splice </li>
+              <li>Originating fiber location (pole or splice case #):<input type="text" name="originating fiber location"></li>
+              <li>Fiber building entrance location:<input type="text" name="fiber building entrance location"></li>
+              <li>Fiber Termination location:<input type="text" name="fiber termination location"></li>
+              <li>Route to get through building:<input type="text" name="route to get through building"></li>
+                <textarea rows="5" cols="50"></textarea>
                 <br><!--added extra space to write-->
               <li>Drop length:</li>
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
-                <br><!--added extra space to write-->
+                <textarea rows="5" cols="50"></textarea>
                 <br><!--added extra space to write-->
               </ul><!--end of fiber drop list-->
 
 <!--ending of fiber drop information-->
 <!--beginning of ont 1 - 3-->
 
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
-<br><!--added extra space to push onto new page-->
 
         <h4>ONT #1</h4><!--header for ONT 1-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>Number of phone lines needed:</li>
-            <li>Mount location:</li>
-            <li>Install location:</li>
-            <li>ONT install location:</li>
-            <li>Power for ONT already existing?</li>
+            <li>Number of phone lines needed:<input type="number" name="ONT1 # of phones" min="0" max="9999999999"></li>
+            <li>Mount location:<input type="text" name="ONT1 mount location"></li>
+            <li>Install location:<input type"text" name="ONT1 install location"></li>
+            <li>ONT install location:<input type="text" name="ONT1 ONT isntall location"></li>
+            <li>Power for ONT already existing?<input type="radio" name="ONT1 power existing" value="Yes"> Yes <input type="radio" name="ONT1 power existing" value="No"> No</li>
               <br><!--added extra space between gateways-->
           </ul>
 
         <h4>ONT #2</h4><!--header for ONT 2-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>Number of phone lines needed:</li>
-            <li>Mount location:</li>
-            <li>Install location:</li>
-            <li>ONT install location:</li>
-            <li>Power for ONT already existing?</li>
+            <li>Number of phone lines needed:<input type="number" name="ONT2 # of phones" min="0" max="9999999999"></li>
+            <li>Mount location:<input type="text" name="ONT2 mount location"></li>
+            <li>Install location:<input type"text" name="ONT2 install location"></li>
+            <li>ONT install location:<input type="text" name="ONT2 ONT isntall location"></li>
+            <li>Power for ONT already existing?<input type="radio" name="ONT2 power existing" value="Yes"> Yes <input type="radio" name="ONT2 power existing" value="No"> No</li>
               <br><!--added extra space between gateways-->
           </ul>
 
         <h4>ONT #3</h4><!--header for ONT 3-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>Number of phone lines needed:</li>
-            <li>Mount location:</li>
-            <li>Install location:</li>
-            <li>ONT install location:</li>
-            <li>Power for ONT already existing?</li>
+            <li>Number of phone lines needed:<input type="number" name="ONT3 # of phones" min="0" max="9999999999"></li>
+            <li>Mount location:<input type="text" name="ONT3 mount location"></li>
+            <li>Install location:<input type"text" name="ONT3 install location"></li>
+            <li>ONT install location:<input type="text" name="ONT3 ONT isntall location"></li>
+            <li>Power for ONT already existing?<input type="radio" name="ONT3 power existing" value="Yes"> Yes <input type="radio" name="ONT3 power existing" value="No"> No</li>
               <br><!--added extra space between gateways-->
           </ul>
 
@@ -334,11 +318,11 @@
         <h5>Special Project</h5><!--header for special projects-->
           <h6>Checklist</h6><!--header for special projects checklist-->
             <ul style="list-style-type:disc"><!-- created a basic list with a disc-->
-              <li>Project needs gathered &#160;&#160;&#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp; Date:_____</li>
-              <li>List created for all needed material &#160;&#160;&#160;&emsp;&emsp; Initial:_____ &emsp; Date:_____</li>
-              <li>Special Project form completed &#160;&#160;&#160;&#160;&emsp;&emsp;&emsp; Initial:_____ &emsp; Date:_____</li>
-              <li>Date scheduled for install &#160;&#160;&#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:_____ &emsp; Date:_____</li>
-              <li>All materials ordered / verified in stock &emsp; Initial:_____ &emsp; Date:_____</li>
+              <li>Project needs gathered &#160;&#160;&#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="project needs gathered, initial"> &emsp; Date:<input type="text" name="project needs gathered, date"></li>
+              <li>List created for all needed material &#160;&#160;&#160;&emsp;&emsp; Initial:<input type="text" name="all needed material, initial"> &emsp; Date:<input type="text" name="all needed material, date"></li>
+              <li>Special Project form completed &#160;&#160;&#160;&#160;&emsp;&emsp;&emsp; Initial:<input type="text" name="special project form complete, initial"> &emsp; Date:<input type="text" name="special project form complete, data"></li>
+              <li>Date scheduled for install &#160;&#160;&#160;&#160;&#160;&#160;&emsp;&emsp;&emsp;&emsp;&emsp; Initial:<input type="text" name="date scheduled for install, initial"> &emsp; Date:<input type="text" name="date scheduled for install, date"></li>
+              <li>All materials ordered / verified in stock &emsp; Initial:<input type="text" name="Materials ordered or in stock, initial"> &emsp; Date:<input type="text" name="Materials ordered or in stock, date"></li>
             </ul>
 
 <!--ending of special projects and checklist-->
@@ -346,27 +330,27 @@
 
         <h3>Part / Material List</h2><!--parts and material header-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>_______ &#160;Cat5e cable</li>
-            <li>_______ &#160;Cat5e ends</li>
-            <li>_______ &#160;Cat5e patch panels</li>
-            <li>_______ &#160;Cat5e jacks</li>
-            <li>_______ &#160;Cat5e wall plates</li>
-            <li>_______ &#160;Cat5e jack boxes</li>
-            <li>_______ &#160;Fiber &#160; (Size:_______________________________)</li>
-            <li>_______ &#160;Fiber patch panel</li>
-            <li>_______ &#160;Fiber splice tray</li>
-            <li>_______ &#160;Fiber fist box</li>
-            <li>_______ &#160;Conduit</li>
-            <li>_______ &#160;Vaults</li>
-            <li>_______ &#160;Other: &#160; ________________________________</li>
+            <li><input type="text" name="cat5e cable 1"> &#160; Cat5e cable</li>
+            <li><input type="text" name="cat5e ends 1"> &#160; Cat5e ends</li>
+            <li><input type="text" name="cat5e patch panels 1"> &#160; Cat5e patch panels</li>
+            <li><input type="text" name="cat5e jacks 1"> &#160; Cat5e jacks</li>
+            <li><input type="text" name="cat5e wall plates 1"> &#160; Cat5e wall plates</li>
+            <li><input type="text" name="cat5e jack boxes 1"> &#160; Cat5e jack boxes</li>
+            <li><input type="text" name="fiber 1"> &#160; Fiber &#160; (Size:<input type="text" name="fiber size 1">)</li>
+            <li><input type="text" name="fiber patch panel 1"> &#160; Fiber patch panel</li>
+            <li><input type="text" name="fiber splice tray 1"> &#160; Fiber splice tray</li>
+            <li><input type="text" name="fiber fist box 1"> &#160; Fiber fist box</li>
+            <li><input type="text" name="conduit 1"> &#160; Conduit</li>
+            <li><input type="text" name="vaults 1"> &#160; Vaults</li>
+            <li><input type="text" name="parts and material list 1, other"> &#160; Other: &#160; <input type="text" name="parts and material list 1, other"></li>
           </ul><!--end of parts and material list-->
 
         <h4>Tools</h4><!--header for tools-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>_____ Drill</li>
-            <li>_____ Ladder(height ___________________)</li>
-            <li>_____ Fish tape</li>
-            <li>_____ Other:____________________</li>
+            <li><input type="text" name="drill 3"> Drill</li>
+            <li><input type="text" name="ladder 3"> Ladder(height <input type="text" name="ladder 3 height">)</li>
+            <li><input type="text" name="fish tap 3"> Fish tape</li>
+            <li><input type="text" name="tools, other 3"> Other:<input type="text" name="tools, other 3"></li>
           </ul><!--end of tool list-->
             <br><!--added extra space-->
             <br><!--added extra space-->
@@ -375,7 +359,7 @@
 <!--beginning of description-->
 
         <h3>Description of work required</h3><!--header for description of work-->
-          <br><!--added extra space to write-->
+          <textarea rows="5" cols="50"></textarea>
           <br><!--added extra space to write-->
 
 <!--end of description-->
@@ -383,23 +367,25 @@
 
         <h4>Today I did ...</h4><!--header asking what has been done today-->
           <ul style="list-style-type:none"><!-- created a basic list with no dots or disc-->
-            <li>Name:</li>
-            <li>Date:</li>
+            <li>Name:<input type="text" name="employees name"></li>
+            <li>Date:<input type="text" name="date on which the employee did work"></li>
             <li>Work completed:</li>
-              <br><!--added extra space to write-->
-              <br><!--added extra space to write-->
-              <br><!--added extra space to write-->
-              <br><!--added extra space to write-->
-              <br><!--added extra space to write-->
+              <textarea rows="5" cols="50"></textarea>
               <br><!--added extra space to write-->
             <li>Materials used:</li>
+              <textarea rows="5" cols="50"></textarea>
               <br><!--added extra space to write-->
               <br><!--added extra space to write-->
               <br><!--added extra space to write-->
               <br><!--added extra space to write-->
-              <br><!--added extra space to write-->
-            <li>Initial:_______ &emsp; Date:_______</li>
+            <li>Initial:<input type="text" name="today i did, initial"> &emsp; Date:<input type="text" name="today i did, date"></li>
           </ul>
+          <br>
+          <br>
+          <br>
+          <div style="text-align:center">
+            <!--<input type="submit">--><input type="reset">
+          </div>
 <!-- end of today i did-->
     </form>
   </head>
